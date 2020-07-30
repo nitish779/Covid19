@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="/styles.css">
+  <title>COVID19 BUSINESS SURVEY</title>
+</head>
+
+<body>
+
+
+  <nav>
+    <h4>COVID-19 Business Survey</h4>
+    <ul>
+      <li><a href="">HOME</a></li>
+      <li><a href="">TRACK</a></li>
+      <li><a href="">SEARCH</a></li>
+    </ul>
+  </nav>
+  <br>
+  <h2>FILL THE SURVEY</h2>
+  <div class="container mt-4">
+    <div class="jumbotron">
+    <div class="card" style="width: 40;">
+
+      <div class="card-body">
+
+        <form action="/" method="post">
+          <div class="form-group">
+            <label> First Name </label>
+            <input type="text" name="fn" value="" placeholder="John">
+            <label> Last Name </label>
+            <input type="text" name="ln" value="" placeholder="Smith">
+          </div>
+          <div class="form-group">
+            <label for="">Business Name</label>
+            <input type="text" name="bn" value="">
+          </div>
+          <div class="form-group ">
+            <label for="">Business Address</label><br>
+            <input type="text" name="st1" value="" placeholder="Street Address">
+            <br>
+
+            <input type="text" name="st2" value="" placeholder="Street Address Line 2">
+            <br>
+
+            <input type="text" name="city" value="" placeholder="City">
+               <input type="text" name="state" value="" placeholder="State"><br>
+            <input type="text" name="pin" value="" placeholder="Pin Code">
+          </div>
+          <div class="form-group">
+            <label for="">Email</label>
+            <input type="email" name="email" value="" placeholder="John@example.com">
+          </div>
+          <div class="form-group">
+            <label for="">Phone Number</label>
+            <input type="text" name="phone" value="" placeholder="12345">
+          </div>
+          <div class="form-group">
+            <label for="">Would you like to receive additional information on financial assistance related to COVID-19?</label><br>
+            <input type="radio" id="YES" name="" value="">
+            <label for="YES">YES</label><br>
+            <input type="radio" id="No" name="" value="">
+            <label for="No">No</label><br>
+          </div>
+          <div class="form-group">
+            <label for="">Please describe your business loss due to COVID-19.</label><br>
+            <textarea name="name" rows="5" cols="50"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="">Please estimate any revenue decline you have experienced as a result of COVID-19.</label><br>
+            <select class="" name="loss">
+              <option value="5">0-10%</option>
+              <option value="15">10-20%</option>
+              <option value="25">20-30%</option>
+              <option value="35">30-40%</option>
+              <option value="45">40-50%</option>
+              <option value="55">50-60%</option>
+              <option value="65">60-70%</option>
+              <option value="75">70-80%</option>
+              <option value="85">80-90%</option>
+              <option value="95">90-100%</option>
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">How many employees do you have?</label><br>
+            <input type="text" name="noe" value="">
+          </div>
+
+          <div class="form-group">
+            <label for="">What is your industry?</label> <br>
+            <input type="radio" id="1" name="" value="">
+            <label for="1">Professional Services</label><br>
+            <input type="radio" id="2" name="" value="">
+            <label for="2">Retail - Online</label><br>
+            <input type="radio" id="3" name="" value="">
+            <label for="3">Personal Care</label><br>
+            <input type="radio" id="4" name="" value="">
+            <label for="4">Restaurant / Food Industry</label><br>
+            <input type="radio" id="5" name="" value="">
+            <label for="5">Others</label><br>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+      </div>
+    </div>
+</div>
+  </div>
+  </div>
+
+</body>
+
+</html>

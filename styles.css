@@ -1,8 +1,37 @@
 body{
-
-
-  background-color: #b2ebf2;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR40eybDgAYDlsUvZKFIFbtdcLUG3I4yKQueA&usqp=CAU");
 }
-input{
-  margin: 5px 0 5px 0;
+nav{
+  background-color: #726a95;
+  color:#fff;
+  padding :30px 60px;
+  display:flex;
+  justify-content:space-between;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+nav li{
+  list style :none;
+}
+nav li a{
+  color:#fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding :5px 8px;
+}
+nav li a:hover{
+  color:yellow;
+  text-decoration: none;
+}
+h2{
+  font-family:sans-serif;
+  text-align: center;
+  color:#221f3b;
+}
+.container{
+  background:none;
 }
